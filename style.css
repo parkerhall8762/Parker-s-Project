@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap')
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+}
+h1{
+	text-align: center;
+	font-size: 4em;
+	color: red;
+}
+h2{
+	color: seagreen;
+}
+a:link{
+color: purple;
+}
+a:visited{
+color: purple;
+}
+a:hover{
+color: blue;
+}
+a:active{
+color: black;
+}
+
+nav{
+	background-color: red;
+	border-top: 2px darkblue solid;
+	border-bottom: 2px darkblue solid;
+	padding: 5px;
+}
+
+nav ul{
+	list-style-type: none;
+	text-align: center;
+}
+nav li{
+	display: inline;
+}
+nav a{
+	text-decoration: none;
+	padding-right: 10px;
+}
+nav a:link{
+	color: white;
+}
+nav a:visited{
+	color: white;
+}
+nav a:hover{
+	color: gray;
+}
+nav a:active{
+	color: black;
+}
+
+main{
+	max-width: 800px;
+	margin: 20px auto;
+}
+footer{
+	text-align: center;
+	border-top: 1px solid gray;
+	padding: 10px;
+	background-image: url('images/alaska.jpg');
+	background-size: cover;
+}
+@media only screen and (max-width: 1024px){
+	h1{
+		font-size: 2em;
+	}
+}
+
+
+.mobile{
+	display:none;
+}
+@media only screen and (max-width: 768px){
+	.desktop{
+		display:none;
+	}
+	.mobile{
+		display: block;
+		touch-action: manipulation;
+	}
+}
+
+
+@media only screen and (max-width: 768px){
+	h1{
+		font-size: 1.5em;
+		color: seagreen;
+	}
+}
+.home-hero{
+	background-image: url(images/sand.jpg);
+	background-size: cover;
+}
+.home-hero h1{
+	
+	color: white;
+	font-size: 60px;
+	text-shadow: 2px 2px 2px black;
+	text-align: center;
+	padding: 50px 0;
+	margin: 0;
+}
+.home-photo {
+	float: right;
+	max-width: 50%;
+	height: auto;
+	margin: 50px 0 10px 20px;
+
+}
+body{
+	margin:0;
+	font-family: 10px solid #014B62;
+	border-top: 10px solid #014B62;
+	border-bottom: 10px solid #014B62;
+}
+.logo{
+	margin: 0 auto;
+	display:block;
+}
+header img{
+	float: left;
+	margin-left: 20px;
+}
+nav ul{
+	text-align:right;
+	padding-top: 30px;
+	padding-right: 20px;
+}
+.footer1000{
+	max-width: 1000px;
+	margin: 0auto;
+}
+.footer-icons{
+
+}
